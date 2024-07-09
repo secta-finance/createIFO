@@ -3,4 +3,4 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-wagmi
 # createIFO admin UI
 
 #### Please replace the Project_id in env.local file
-NEXT_PUBLIC_WC_PROJECT_ID='98d91fbb35b7bfc3432dff7df6247c25'
+NEXT_PUBLIC_WC_PROJECT_ID='id from cloud.walletconnect.com'
