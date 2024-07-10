@@ -51,7 +51,7 @@ function App() {
   const [endTimestamp, setEndTimestamp] = useState("");
   const [adminAddress, setAdminAddress] = useState("");
   const [stakingPoolAddress, setStakingPoolAddress] = useState("");
-  const [rateMultiplier, setRateMultiplier] = useState("1");
+  const [rateMultiplier, setRateMultiplier] = useState("1000000");
 
   const { data: hash, error, isPending, writeContract } = useWriteContract();
 
@@ -98,12 +98,10 @@ function App() {
         Number(endTimestamp),
         adminAddress,
         stakingPoolAddress,
-        Number(rateMultiplier)
+        rateMultiplier
       ]
     })
   }
-
-  console.log("account", account);
 
   return (
     <>
